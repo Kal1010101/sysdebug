@@ -45,26 +45,27 @@ What It Detects
 
 
 
-An Example Output
+## Alternative: Create a Collapsible Gallery
 
-╔════════════════════════════════════════════════════════════╗
-║  🔍 SYSTEM DEBUG - Mon Jun 14 10:30:00 UTC 2026          ║
-╚════════════════════════════════════════════════════════════╝
 
-📋 SYSTEM OVERVIEW
-──────────────────────────────────────────────────────────────
-Hostname: myserver    OS: Ubuntu 22.04
-Kernel: 5.15.0-91     Uptime: 3 days
-Users: 2
+```markdown
+<details>
+<summary>📸 Click to view screenshots</summary>
 
-⚠️  ABNORMALITY DETECTED: Suspicious port 31337 listening
-⚠️  ABNORMALITY DETECTED: Process PID 1234 running from /tmp
+| Section | Screenshot |
+|---------|------------|
+| System Overview | ![Overview](images/overview.png) |
+| Network Analysis | ![Network](images/network.png) |
+| Listening Ports | ![Listening](images/listening.png) |
+| Firewall Status | ![Firewall](images/firewall.png) |
+| Process Monitor | ![Process](images/process.png) |
+| Login History | ![History](images/history.png) |
+| Cron Jobs | ![Crontab](images/crontab.png) |
 
-📊 ABNORMALITY SUMMARY
-════════════════════════════════════════════════════════════
-⚠️  Found 2 abnormalities:
-  1. Suspicious port 31337 listening
-  2. Process PID 1234 running from /tmp
+</details>
+
+
+
 
 
 Disclaimer
