@@ -11,40 +11,27 @@ A comprehensive system debugging tool with network device discovery, anomaly det
 | **System** | CPU/Memory/Disk usage, top processes, load average, kernel messages |
 | **Threat Detection** | Suspicious ports, ARP spoofing, hidden files, processes from /tmp |
 
+## Requirements
 
-Requirements
-OS: Linux (Ubuntu, Debian, RHEL, Arch) or macOS
+- **OS:** Linux (Ubuntu, Debian, RHEL, Arch) or macOS
+- **Privileges:** Root/sudo recommended for full access
+- **Dependencies:** `ss`, `ip`, `arp`, `lsof` (installed by default on most systems)
 
-Privileges: Root/sudo recommended for full access
+## What It Detects
 
-Dependencies: ss, ip, arp, lsof (installed by default on most systems)
+- 🚨 Suspicious listening ports (backdoors, trojans)
+- 🚨 Processes running from /tmp or /dev/shm
+- 🚨 ARP spoofing attempts
+- 🚨 Unauthorized SUID/SGID binaries
+- 🚨 Suspicious cron jobs
+- 🚨 World-writable files
+- 🚨 Hidden executables in home directories
+- 🚨 Passwordless sudo rules
+- 🚨 High CPU/memory usage
+- 🚨 Failed login attempts (brute force)
 
+## Screenshots
 
-What It Detects
-
-🚨 Suspicious listening ports (backdoors, trojans)
-
-🚨 Processes running from /tmp or /dev/shm
-
-🚨 ARP spoofing attempts
-
-🚨 Unauthorized SUID/SGID binaries
-
-🚨 Suspicious cron jobs
-
-🚨 World-writable files
-
-🚨 Hidden executables in home directories
-
-🚨 Passwordless sudo rules
-
-🚨 High CPU/memory usage
-
-🚨 Failed login attempts (brute force)
-
-
-
-```markdown
 <details>
 <summary>📸 Click to view screenshots</summary>
 
@@ -59,35 +46,6 @@ What It Detects
 | Cron Jobs | ![Crontab](images/crontab.png) |
 
 </details>
-
-
-
-
-
-Disclaimer
-This script performs read-only system inspection. It does not modify any files. Run with root privileges for complete access to all system information.
-
-
-
-### 5. Create a `.gitignore`
-
-```bash
-nano .gitignore
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editor files
-.swp
-.swo
-*~
-
-
-
 
 ## Quick Start
 
