@@ -48,7 +48,6 @@ A comprehensive system debugging tool with network device discovery, anomaly det
 </details>
 
 ## Quick Start
-
 ```bash
 # Clone the repository
 git clone https://github.com/Kal1010101/sysdebug.git
@@ -62,3 +61,4 @@ sudo ./sysdebug.sh --quick
 
 # Plain text output (no colors)
 sudo ./sysdebug.sh --no-color
+'''
