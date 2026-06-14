@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# At the top, after the shebang:
+#
 # =============================================================================
 #  SYSTEM DEBUG & SECURITY AUDIT SCRIPT
 #  Network Device Discovery | Anomaly Detection | Security Hardening Audit
