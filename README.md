@@ -44,10 +44,6 @@ What It Detects
 
 
 
-
-## Alternative: Create a Collapsible Gallery
-
-
 ```markdown
 <details>
 <summary>📸 Click to view screenshots</summary>
