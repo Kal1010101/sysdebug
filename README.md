@@ -1,6 +1,14 @@
 # 🔍 System Debug & Security Audit Script
 
 A comprehensive system debugging tool with network device discovery, anomaly detection, and security auditing capabilities.
+![Status](https://img.shields.io/badge/status-production_ready-brightgreen)
+
+## 🔒 Also Check Out
+[Ultimate System Hardening Script](https://github.com/Kal1010101/ultimate-sys-hardening) - CIS-aligned security hardening
+
+## ⭐ Support This Project
+If this script helped you, please consider starring this repository!
+It helps others find it and motivates continued development.
 
 ## Features
 
